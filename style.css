@@ -60,7 +60,7 @@ li {
 
 #nav,
 #footer {
-  background-color: #efefef;
+  background-color: #FFF;
   padding: 0.5em 0;
 }
 
@@ -68,7 +68,7 @@ li {
 .article {
   height: 10em;
   margin-bottom: 1em;
-  background-color: #efefef;
+  background-color: #FFF;
 }
 
 #feature {
@@ -79,12 +79,12 @@ li {
 
 
 .about_text {
-  background-color: #efefef;
+  background-color: #FFF;
   padding: 0.5em 0;
 }
 
 #container {
-  background-color: #efefef;
+  background-color: #FFF;
   padding: 0.5em 0;
   margin: auto;
   width: 93%;
@@ -140,8 +140,19 @@ input[type=submit]:hover {
 }
 
 h1{
-  color: navy;
+  color: #2020d9;
+  line-height: 1.5;
 }
 
+#music{
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 
-
+p{
+  line-height: 1.5;
+  color: #333;
+  
+}
